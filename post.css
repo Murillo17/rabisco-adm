@@ -1,0 +1,449 @@
+body{
+	margin: 0px;
+	padding: 0px;
+	background-color: #f1bec2;
+
+
+
+};
+.rtable{
+	position: fixed;
+}
+	
+#c{
+
+	top: 0px;
+	width: 100%;
+	height: 60px;
+	background-color: #1C1C1C;
+	position: absolute;
+	z-index: 4;
+
+	
+}
+#check{
+	display: none;
+
+	z-index: 1;
+
+}
+#border{
+	margin: 10px;
+	border-color: #1C1C1C;
+	text-align: center;
+}
+#border2{
+	padding: 10px 10px;
+	margin: 10px;
+	height: 20px;
+	
+}
+#border3{
+	margin: 10px 10px;
+	text-align: center;
+	border: 1px #1C1C1C;
+}
+.barra{
+	width: 260px;
+	height: 669.9px;
+	top: 60px;
+	background-color: #1C1C1C;
+	transition: all .2s linear;
+	position: absolute;
+	left: -300px;
+	z-index: 3;
+	
+	
+
+	
+}
+#check:checked ~ .barra{
+	transform: translateX(300px);
+
+}
+#icone{
+color: white;
+	margin: 15px 7px;
+	cursor: pointer;
+	text-decoration: none;
+	position: absolute;
+	
+}
+img{
+	width: 30px;
+	height: 30px;
+	margin: 1px 4px;
+
+}
+#link{
+	background-color: #1C1C1C;
+	padding: 13px;
+	font-family: 'Arial';
+	font-size: 14pt;
+	transition: all .2s linear;
+	color: white;
+	border-bottom: 2px solid white;
+	text-decoration: none;
+
+}
+a{
+	text-decoration: none;
+}
+#link:hover{
+	background-color: #f1bec2;
+	opacity: 0.7;
+	color: black;
+
+}
+.barra2{
+	width: 100%;
+	height: 100%;
+	left: 0;
+	top: 0;
+	position: fixed;
+	background-color: rgba(0,0,0,.6);
+	display: none;
+	z-index: 1;
+	
+	
+
+}
+#check:checked ~ .barra2{
+	display: block;
+
+}
+#ajuste1{
+	margin: 10px;
+	height: 40px;
+	width: 300px;
+	position: absolute;
+	top: 20px;
+	left: 2px;
+	
+	
+}
+#ajuste2{
+	margin: 10px;
+	height: 40px;
+	width: 300px;
+	position: absolute;
+	top: 20px;
+	left: 350px;
+	
+	
+}
+#ajuste3{
+	margin: 10px;
+	height: 40px;
+	width: 155px;
+	position: absolute;
+	top: 20px;
+	left: 700px;
+	
+	
+}
+#ajuste4{
+	margin: 10px;
+	height: 40px;
+	width: 200px;
+	position: absolute;
+	top: 80px;
+	left: 250px;
+
+	
+	
+}
+#bloqueio{
+	color: red;
+}
+#pesquise{
+	border-radius: 40px;
+	width:290px;
+}
+#bt-pesquise{
+	border-radius: 50px;
+}
+#ajuste5{
+	margin: 10px;
+	height: 40px;
+	width: 200px;
+	position: absolute;
+	top: 80px;
+	left: 2px;
+	
+	
+}
+#teste2:checked ~ .rtable{
+	display: none;
+}
+#dimi{
+	
+
+	width: 250px;
+	height: 10px;
+	font-size: 12px;
+
+}
+#ajuste6{
+	margin: 10px;
+	height: 40px;
+	width: 300px;
+	position: absolute;
+	top: 140px;
+	left: 350px;
+	
+	
+}
+#ajuste7{
+	margin: 10px;
+	height: 40px;
+	width: 300px;
+	position: absolute;
+	top: 140px;
+	left: 2px;
+	
+	
+}
+#ajuste8{
+	margin: 10px;
+	height: 40px;
+	width: 160px;
+	position: absolute;
+	top: 140px;
+	left: 700px;
+	
+	
+}
+#ajuste9{
+	margin: 10px;
+	height: 40px;
+	width: 300px;
+	position: absolute;
+	top: 200px;
+	left: 2px;
+	
+	
+}
+#ajuste10{
+	margin: 10px;
+	height: 40px;
+	width: 300px;
+	position: absolute;
+	top: 200px;
+	left: 350px;
+	
+	
+}
+#ajuste11{
+	margin: 10px;
+	height: 40px;
+	width: 150px;
+	position: absolute;
+	top: 200px;
+	left: 700px;
+	
+	
+}
+#ajuste12{
+	margin: 10px;
+	height: 40px;
+	width: 300px;
+	position: absolute;
+	top: 260px;
+	left: 2px;
+}
+#ajuste13{
+	margin: 10px;
+	height: 40px;
+	width: 200px;
+	position: absolute;
+	top: 80px;
+	left: 500px;
+}
+#ajuste14{
+	margin: 10px;
+	height: 40px;
+	width: 200px;
+	position: absolute;
+	top: 260px;
+	left: 350px;
+}
+#ajuste15{
+	margin: 10px;
+	height: 40px;
+	width: 250px;
+	position: absolute;
+	top: 260px;
+	left: 600px;
+	overflow-y: scroll;
+	
+}
+#ajuste17{
+	margin: 10px;
+	height: 40px;
+	width: 250px;
+	position: absolute;
+	top: 310px;
+	left: 2px;
+}
+#ajuste18{
+	margin: 10px;
+	height: 40px;
+	width: 50px;
+	position: absolute;
+	top: 310px;
+	left: 450px;
+}
+#ajuste19{
+	font-family: sans-serif;
+	font-size: 16px;
+	position: absolute;
+	top: 330px;
+	left: 330px;
+}
+#ajuste20{
+	margin: 10px;
+	height: 70px;
+	width: 250px;
+	position: absolute;
+	top: 310px;
+	left: 600px;
+	overflow-y: scroll;
+}
+#ajuste21{
+	font-family: sans-serif;
+	font-size: 15px;
+	text-align: center;
+	
+}
+#detalhes2{
+	font-family: sans-serif;
+	font-size: 14px;
+	text-align: center;
+}
+#cad_nome{
+	font-size: 20px;
+	font-family: sans-serif;
+	text-align: center;
+
+}
+#cad_cliente{
+	position: relative;
+	top: 300px;
+	
+}
+	
+#informaçoes-usuario{
+	position: absolute;
+	width: 400px;
+	height: 150px;
+	background-color: #1C1C1C;
+	top: 100px;
+	color: white;
+	left: 30px;
+	font-family: sans-serif;
+
+}
+#aste{
+	color: red;
+	
+}
+#teste{
+	display: none;
+}
+#nome-logado{
+	color: white;
+	font-family: sans-serif;
+	position: absolute;
+	top: 30px;
+	right: 5px;
+}
+#voltar{
+	font-family: sans-serif;
+	font-size: 30px;
+	color: white;
+	text-decoration: none;
+	position: absolute;
+	top: 10px;
+	left: 60px;
+}
+.container-cadastro{
+	position: relative;
+	margin-right: auto;
+	margin-top: 100px;
+	margin-left: auto;
+	height: 580px;
+	width: 70%;
+	background-color: white;
+	overflow-y: scroll;
+}
+.container-cadastro2{
+	position: relative;
+	margin-right: auto;
+	margin-top: 100px;
+	margin-left: auto;
+	height: 580px;
+	width: 98%;
+	background-color: white;
+	overflow-y: scroll;
+}
+.container-cadastro4{
+	position: relative;
+	margin-right: auto;
+	margin-top: 100px;
+	margin-left: auto;
+	height: 580px;
+	width: 67%;
+	background-color: white;
+	overflow-y: scroll;
+}
+.container-cadastro3{
+	position: relative;
+	margin-right: auto;
+	margin-top: 100px;
+	margin-left: auto;
+	height: 580px;
+	width: 95%;
+	background-color: white;
+	overflow-y: scroll;
+}
+.container-informações{
+	position: relative;
+	top: 300px;
+	text-align: center;
+
+}
+#alert-erro{
+	color: red;
+}
+#excluir{
+	color: blue;
+	font-size: 15px;
+}
+#editar{
+	color: green;
+	font-size: 15px;
+}
+#detalhes{
+	color: #DAA520;
+	font-size: 15px;
+}
+#bt-modal{
+	position: absolute;
+	top: 320px;
+	left: 610px;
+}
+#alteracao-modal{
+	width: 450px;
+	height: 60px;
+
+}
+
+
+#sucess-alteracao{
+	color: white;
+	background-color: #00FF00;
+	position: absolute;
+	width: 40px;
+	height: 20px;
+}
